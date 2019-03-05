@@ -1,0 +1,25 @@
+{
+  "name": "ezlife-chat",
+  "version": "0.0.1",
+  "description": "easy xmpp chat written in electron",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "start-mac": "/Applications/Electron.app/Contents/MacOS/Electron ."
+  },
+  "author": "Philipp Minges",
+  "license": "MIT",
+  "dependencies": {
+    "@xmpp/client": "^0.7.0",
+    "@xmpp/jid": "^0.7.0",
+    "bootstrap": "^4.3.1",
+    "cheerio": "^1.0.0-rc.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "tether": "^1.4.5"
+  },
+  "devDependencies": {
+    "electron": "^4.0.6",
+    "eslint": "^5.15.0"
+  }
+}

@@ -1,0 +1,17 @@
+/* chat layout */
+html, body {
+    height: 100%
+}
+.wrap {
+    height: 75vh;
+    display: flex;
+}
+aside, article {
+    overflow-y: scroll;
+}
+aside {
+    flex: 1;
+}
+article {
+    flex: 2;
+}
